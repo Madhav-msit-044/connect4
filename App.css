@@ -1,0 +1,125 @@
+.App {
+  color: #FF456C;
+  text-align: center;
+}
+.App1{
+  padding-left: 3%;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.third{
+  justify-content: center;
+  /* padding-left: 40%; */
+ 
+  display: flex;
+  
+}
+p{
+  font-size: x-large;
+}
+
+.App-header {
+  background-color: #b6e759;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(8, 8, 8);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+.Game {
+  margin: 20px;
+  background-color: #b6e759;
+  
+  justify-content: center;
+}
+
+button {
+    background-color: #f3545c;
+    border: 1px solid #5689db;
+    align-items: center;
+    padding-left: 50%;
+    border-radius: 3px;
+    display: inline-block;
+    color: rgb(20, 19, 19);
+    font-size: 24px;
+    padding: 10px 38px;
+    text-decoration: none;
+    margin:50px;
+    transition: all 0.5s;
+    max-width: 160px;
+    min-width: 160px;
+}
+
+.instruct,li {
+  align-content: center;
+}
+
+button:hover {
+    background-color: rgb(46, 96, 161);
+    
+}
+
+.Board {
+  display: flex;
+  /* margin-left:40%;
+ */
+
+ justify-content: center;
+}
+
+.Slat {
+  background-color: rgba(255, 255, 255, 0.733);
+
+}
+
+.Hole {
+  padding: 5px;
+  margin: 1px;
+  min-width: 30px;
+  min-height: 30px;
+  border: 1px solid lightblue;
+}
+
+.Hole div {
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+  border-radius: 4px;
+  top: -400px;
+  transition: transform 0.5s;
+}
+
+.Red {
+  background-color: #f52323;
+  transform: translateY(400px);
+}
+
+.Blue {
+  background-color: #2CC5FF;
+  transform: translateY(400px);
+}
+
+.winnerMessage {
+  margin: 20px;
+  font-size: 0pt;
+  font: 12pt;
+  opacity: 0;
+  transition: all 0.5s cubic-bezier(0.18, 0.99, 0.8, 1.17);
+}
+
+.appear {
+  opacity: 1;
+  font-size: 20pt;
+}
+
